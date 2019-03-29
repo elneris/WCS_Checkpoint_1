@@ -6,7 +6,7 @@
 function contactInformation()
 {
     $pdo = new PDO(DSN,USER,PASS);
-    $query = $pdo->query('SELECT * FROM contact');
+    $query = $pdo->query('SELECT * FROM contact ORDER BY lastname');
     $contacts = $query->fetchAll(PDO::FETCH_CLASS,'Contact');
     $query->closeCursor();
 
@@ -47,4 +47,15 @@ function civility($value)
         return $civility['civility'];
     }
 
+}
+
+?>
+
+<?php
+
+function testInput($value) {
+    $result = trim($value);
+    $result = stripslashes($result);
+    $result = htmlspecialchars($result);
+    return $result;
 }
