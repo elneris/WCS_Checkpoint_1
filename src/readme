@@ -1,0 +1,8 @@
+Voici les constantes que j'ai défini pour ma connexion a la BDD :
+
+define("DSN", "mysql:host=localhost;dbname=checkpoint1");
+define("USER", "root");
+define("PASS", "root");
+
+Ces info n'ont pas été push et mit en gitignore mais je rajoute pour la corection nom de la database est bien checkpoint1
+utilisateur root et mdp root !

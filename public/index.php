@@ -1,7 +1,24 @@
+<?php require ('../inc/_header.php')?>
+<?php require ('../inc/_nav.php') ?>
+<?php require_once ('../src/function.php') ?>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: elner
- * Date: 29/03/2019
- * Time: 09:18
- */
+
+if (empty($_GET['page']) || $_GET['page'] == 'list'){ ?>
+<div class="container">
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Nom - Prénom</th>
+            <th scope="col">Civilité</th>
+        </tr>
+        </thead>
+        <tbody>
+            <?php contactInformation() ?>
+        </tbody>
+    </table>
+</div>
+<?php } else {
+
+}
