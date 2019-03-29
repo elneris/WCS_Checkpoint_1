@@ -7,10 +7,14 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item active">
-                    <button class="btn btn-dark">Liste des contacts<span class="sr-only">(current)</span></button>
+                    <form method="get">
+                    <button type="submit" name="page" value="list" class="btn btn-dark">Liste des contacts<span class="sr-only">(current)</span></button>
+                    </form>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-dark">Ajouter un contact</button>
+                    <form method="get">
+                    <button type="submit" name="page" value="add" class="btn btn-dark">Ajouter un contact</button>
+                    </form>
                 </li>
             </ul>
         </div>
