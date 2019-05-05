@@ -1,3 +1,11 @@
+# Checkpoint PHP 1 : 29/03/19
+
+## Les checkpoints ont été des étapes clés de ma formation à La wild Code School
+
+( aucune modification ultérieur ne viendra altérer ce repo, pour montrer ma preogression au cours de cette formation )
+
+## Consignes
+
 Dans ce checkpoint, tu vas devoir créer un début de répertoire de contacts.
 
 **Etapes :**
